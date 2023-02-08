@@ -1,17 +1,25 @@
 body{
     margin: 0%;
+    background-color: #62493C;
 }
 
 
 .Header{
     margin: 0%;
 
-
     display: flex;  
 }
 
 .Sidebar{
     width: 250px;
+    height: 15%;
     display: flex;
         flex-direction: column;
+}
+
+.Books{
+
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
 }
