@@ -11,14 +11,17 @@ body{
 }
 
 .Sidebar{
+    width: 20%;
+}
+
+.Sidebar-background{
     width: 250px;
-    height: 15%;
-    display: flex;
+    display: flex; 
         flex-direction: column;
 }
 
 .Books{
-
+    width: 80%;
     display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
