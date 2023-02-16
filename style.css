@@ -7,22 +7,32 @@ body{
 .Header{
     margin: 0%;
 
-    display: flex;  
+
 }
 
 .Sidebar{
     width: 20%;
+    max-width: 20%;
 }
+
 
 .Sidebar-background{
     width: 250px;
-    display: flex; 
         flex-direction: column;
 }
 
 .Books{
-    width: 80%;
-    display: flex;
+    width: 100%;
+
         flex-wrap: wrap;
         justify-content: space-evenly;
 }
+
+.Book_style{
+    background-color: white;
+    width: 254px;
+    height: 274px;
+}
+
+
+/* GLÖM INTE VALIDERING!!!!!  "Validator.W3.org*/
